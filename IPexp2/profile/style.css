@@ -1,0 +1,63 @@
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Aboreto', cursive;
+    padding: 0;
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 0.4rem 0.8rem;
+    color: white;
+    background: #333;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 750ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #2dbdff;
+}
+
+/* Element Selectors */
+body {
+    background-color: #F5C7A9;
+}
+
+/* . is for classes */
+.primary-heading {
+    color: rgb(73, 7, 63);
+}
+
+/* # is for IDs */
+#welcome {
+    background-color: #F5C7A9;
+}
+
+/* Multiple Selectors */
+#welcome
+#about {
+    border: 1px solid rgb(14, 12, 12);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+/* Nested Selectors */
+#welcome p {
+    font-size: 500px;
+}
+
+#about {
+    background: #411530;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
